@@ -1,0 +1,9 @@
+streamlit
+python-dotenv
+torch
+transformers
+opencv-python-headless
+Pillow
+numpy
+easyocr
+requests
