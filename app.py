@@ -1,3 +1,7 @@
+#Big picture: This app takes a handwritten image → extracts text using OCR (TrOCR + EasyOCR) → cleans it → sends it to a Hugging Face LLM to fix spelling/grammar → 
+#lets the user manually edit → downloads final text
+
+
 import os
 import streamlit as st
 from PIL import Image
